@@ -1,0 +1,33 @@
+.aloc-data-forms-users, .cadastro-user, .data-user, .contact-user, .endereco-user {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    align-items: center;
+}
+
+#cadas-user-data {
+    background-color: rgb(52, 58, 64);
+    width: 60%;
+}
+
+label {
+    color: white;
+}
+
+input {
+    background-color: rgba(52, 58, 64, 0.718);
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid  rgba(8, 130, 253, 0.086);
+    outline: none;
+    width: 70%;
+    color: white;
+}
+
+.aloc-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(52, 58, 64, 0.718);
+}
