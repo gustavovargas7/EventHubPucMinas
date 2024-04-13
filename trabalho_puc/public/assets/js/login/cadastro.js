@@ -37,6 +37,6 @@ $(document).ready(function () {
         };
         usersData.push(dataUser);
         localStorage.setItem('usersData', JSON.stringify(usersData));
-        console.log(usersData);
+        console.log("usersData");
     }
 });
