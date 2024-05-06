@@ -1,0 +1,65 @@
+/* :root{
+    
+   --meu-gradiente: (var( --bs-orange: #fd7e14));
+}
+
+body{
+   background-color:var(--meu-gradiente) 
+} */
+
+.container-card{
+   
+    background-color: rgb(165, 165, 165);
+    
+}
+
+.card-principal
+{
+    background-color: rgb(165, 165, 165);
+    margin: 200px;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50% /* tamanho do card */
+}
+
+#body{
+   background-color: rgb(84, 84, 84);
+}
+
+.navbar{
+   background-color: rgb(239, 107, 0);
+}
+
+.card-sugestao{
+   background-color: rgb(165, 165, 165);
+
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 400px; /* tamanho do card */
+}
+
+.btn-secondary-color {
+   color: rgb(239, 107, 0);
+   border-color: rgb(239, 107, 0);
+}
+
+.button{
+   width: 800px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(239, 107, 0);
+   border-color: rgb(239, 107, 0);
+   
+   
+}
+
+.card-body .button{
+   width: 800px;
+}
+
