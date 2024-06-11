@@ -11,91 +11,108 @@
 </head>
 
 <body id="body">
-  <nav class="navbar navbar-expand-lg navbar-dark"> <!-- Cor laranja aplicada -->
+    <!-- cabeçalho -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark"> <!-- Cor laranja aplicada -->
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- inicio -->
     <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <form class="d-flex ms-auto">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
+        <div id="corpo">
+            <div class="card-principal col-11 mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://static.wixstatic.com/media/0ee974_5bdf6a037c584a69b7e461f1e8edc7cb~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/0ee974_5bdf6a037c584a69b7e461f1e8edc7cb~mv2.jpg" class="img-fluid rounded-start" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="button me-md-2" type="button">Button</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card-sugestao">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.D2WrSGHHvoYgFiqkUEAlywHaDt&pid=Api&P=0&h=180"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+                                <a href="#" class="button">ver mais </a>
+                                <!-- Adicionando a classe btn-secondary-color -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-sugestao">
+                            <img src="http://www.aplausoeventos.com.br/wp-content/uploads/2018/12/evento-1.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+                                <a href="#" class="button">ver mais </a>
+                                <!-- Adicionando a classe btn-secondary-color -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-sugestao">
+                            <img src="http://www.aplausoeventos.com.br/wp-content/uploads/2018/12/evento-1.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+                                <a href="#" class="button"> ver mais</a> <!-- Adicionando a classe  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-</nav>
-
-<div class="container-card mt-5">
-    <div class="row">
-        <div class=" col-10 mb-3 mx-auto"> <!-- Card principal ocupando toda a tela horizontalmente -->
-            <div class="card-principal">
-                <img src="https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2023/08/10/original-1h84sdy6gusdv.png"
-                    class="img-fluid rounded-start" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer. Lorem ipsum dolor, sit amet
-                        consectetur adipisicing elit. Earum minus quae, architecto hic et iusto?</p>
-                    <button type="button" class="button ">comprar</button> <!-- Adicionando a classe btn-secondary-color -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card-sugestao mb-3">
-                <img src="https://tse2.mm.bing.net/th?id=OIP.D2WrSGHHvoYgFiqkUEAlywHaDt&pid=Api&P=0&h=180"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <a href="#" class="button">ver mais </a> <!-- Adicionando a classe btn-secondary-color -->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card-sugestao mb-3">
-                <img src="http://www.aplausoeventos.com.br/wp-content/uploads/2018/12/evento-1.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <a href="#" class="button">ver mais </a> <!-- Adicionando a classe btn-secondary-color -->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card-sugestao mb-3">
-                <img src="http://www.aplausoeventos.com.br/wp-content/uploads/2018/12/evento-1.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <a href="#" class="button"> ver mais</a> <!-- Adicionando a classe btn-secondary-color -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</body>
-
+    <!-- rodapé -->
     <footer class="bg-dark text-light py-2">
         <div class="container text-center">
             <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
         </div>
     </footer>
 
-    <script src="/public/assets/js/index.js"></script> <!-- Certifique-se de que o caminho do arquivo JavaScript está correto -->
+    <script src="/public/assets/js/index.js"></script>
+    <!-- Certifique-se de que o caminho do arquivo JavaScript está correto -->
+
+
 </body>
 
 </html>
-
