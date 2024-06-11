@@ -1,0 +1,62 @@
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\appsettings.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.staticwebassets.runtime.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.exe
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.deps.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.pdb
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.RazorAssemblyInfo.cache
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.RazorAssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.sourcelink.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.EventHubPucMinas.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.build.EventHubPucMinas.props
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EventHubPucMinas.props
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EventHubPucMinas.props
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\scopedcss\bundle\EventHubPucMinas.styles.css
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\scopedcss\projectbundle\EventHubPucMinas.bundle.scp.css
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\refint\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.pdb
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\obj\Debug\net8.0\ref\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\appsettings.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.staticwebassets.runtime.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.exe
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.deps.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.runtimeconfig.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.RazorAssemblyInfo.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.RazorAssemblyInfo.cs
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.sourcelink.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.EventHubPucMinas.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.build.EventHubPucMinas.props
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EventHubPucMinas.props
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EventHubPucMinas.props
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\scopedcss\bundle\EventHubPucMinas.styles.css
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\scopedcss\projectbundle\EventHubPucMinas.bundle.scp.css
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\refint\EventHubPucMinas.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\ref\EventHubPucMinas.dll
