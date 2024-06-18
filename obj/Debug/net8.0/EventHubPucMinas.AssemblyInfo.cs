@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventHubPucMinas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0835c1c20fadf25af2949ddef9e0cfddca2ffd3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8b71502a53554ceae1abd9e0aa40a52e3cde4c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventHubPucMinas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventHubPucMinas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

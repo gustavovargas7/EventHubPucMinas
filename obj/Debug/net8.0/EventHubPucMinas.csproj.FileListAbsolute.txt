@@ -60,3 +60,34 @@ C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\r
 C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.pdb
 C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.genruntimeconfig.cache
 C:\Users\pedro\OneDrive\Área de Trabalho\VS\EventHubPucMinas\obj\Debug\net8.0\ref\EventHubPucMinas.dll
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\appsettings.Development.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\appsettings.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.staticwebassets.runtime.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.exe
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.deps.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.runtimeconfig.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.dll
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\bin\Debug\net8.0\EventHubPucMinas.pdb
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.GeneratedMSBuildEditorConfig.editorconfig
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.AssemblyInfoInputs.cache
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.AssemblyInfo.cs
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.csproj.CoreCompileInputs.cache
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.MvcApplicationPartsAssemblyInfo.cache
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.RazorAssemblyInfo.cache
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.RazorAssemblyInfo.cs
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.sourcelink.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.build.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.development.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.EventHubPucMinas.Microsoft.AspNetCore.StaticWebAssets.props
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.build.EventHubPucMinas.props
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EventHubPucMinas.props
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EventHubPucMinas.props
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\staticwebassets.pack.json
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\scopedcss\bundle\EventHubPucMinas.styles.css
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\scopedcss\projectbundle\EventHubPucMinas.bundle.scp.css
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.dll
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\refint\EventHubPucMinas.dll
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.pdb
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\EventHubPucMinas.genruntimeconfig.cache
+\\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\obj\Debug\net8.0\ref\EventHubPucMinas.dll

@@ -31,3 +31,7 @@ input {
     justify-content: center;
     background-color: rgba(52, 58, 64, 0.718);
 }
+
+.container-fluid {
+    color: white !important;
+}

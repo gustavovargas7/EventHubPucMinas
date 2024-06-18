@@ -9,7 +9,13 @@ a.navbar-brand[b-c1shpswyxj] {
 }
 
 a[b-c1shpswyxj] {
-  color: #0077cc;
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 22px;
+
+  &:hover {
+    color: red;
+  }
 }
 
 .btn-primary[b-c1shpswyxj] {
@@ -20,8 +26,6 @@ a[b-c1shpswyxj] {
 
 .nav-pills .nav-link.active[b-c1shpswyxj], .nav-pills .show > .nav-link[b-c1shpswyxj] {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
 }
 
 .border-top[b-c1shpswyxj] {
