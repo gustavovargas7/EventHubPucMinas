@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventHubPucMinas
 build_property.RootNamespace = EventHubPucMinas
-build_property.ProjectDir = \\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas\
+build_property.ProjectDir = c:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = \\192.168.0.1\Arquivos$\gustavovargas\Meus Documentos\project_tiapw\EventHubPucMinas
+build_property.MSBuildProjectDirectory = c:\Users\pedro\OneDrive\Documentos\Teste\EventHubPucMinas
 build_property._RazorSourceGeneratorDebug = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Home/about.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Home/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Home/Compra.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Home/Compra.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wcmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Home/Contato.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Home/Contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Home/Index.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Home/Login.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Shared/Error.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/_ViewImports.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/_ViewStart.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//192.168.0.1/Arquivos$/gustavovargas/Meus Documentos/project_tiapw/EventHubPucMinas/Views/Shared/_Layout.cshtml]
+[c:/Users/pedro/OneDrive/Documentos/Teste/EventHubPucMinas/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c1shpswyxj

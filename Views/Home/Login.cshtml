@@ -4,71 +4,78 @@
 <h1>@ViewData["Title"]</h1>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faça seu login | Seja bem-vindo</title>
-    <script src="/wwwroot/js/cadastro.js"></script>
-    <link rel="stylesheet" href="/wwwroot/css/login.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EventHubPucMinas</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EventHubPucMinas.styles.css" asp-append-version="true" />
 </head>
 
 
 <body>
-    <!--Modal criar usuario-->
     <div>
-        <div class="aloc-form">
-            <form id="cadas-user-data">
-                <div class="aloc-data-forms-users">
-                    <div class="cadastro-user">
-                        <label for="login">Login</label>
-                        <input type="text" id="login">
-                        <label for="senha">Senha</label>
-                        <input type="text" id="senha">
-                        <label for="senha">Confirmar senha</label>
-                        <input type="text" id="confirm-senha">
+        <!--Modal criar usuario-->
+        <div>
+            <div class="aloc-form">
+                <form id="cadas-user-data">
+                    <div class="aloc-data-forms-users">
+                        <div class="cadastro-user">
+                            <label for="login">Login</label>
+                            <input type="text" id="login">
+                            <label for="senha">Senha</label>
+                            <input type="text" id="senha">
+                            <label for="senha">Confirmar senha</label>
+                            <input type="text" id="confirm-senha">
+                        </div>
+                        <div class="data-user">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name">
+                            <label for="sobre-nome">Sobrenome</label>
+                            <input type="text" id="sobre-nome">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf">
+                            <label for="date-nasc"> Data de nascimento</label>
+                            <input type="text" id="date-nasc">
+                        </div>
+                        <div class="contact-user">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email">
+                            <label for="numero">Número</label>
+                            <input type="text" id="numero">
+                        </div>
+                        <div class="endereco-user">
+                            <label for="pais">País</label>
+                            <input type="text" id="pais">
+                            <label for="estado">Estado</label>
+                            <input type="text" id="estado">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade">
+                            <label for="bairro">Bairro</label>
+                            <input type="text" id="bairro">
+                            <label for="cep">CEP</label>
+                            <input type="text" id="cep">
+                        </div>
+                        <button id="enviar-form" type="submit">Enviar</button>
                     </div>
-                    <div class="data-user">
-                        <label for="name">Nome</label>
-                        <input type="text" id="name">
-                        <label for="sobre-nome">Sobrenome</label>
-                        <input type="text" id="sobre-nome">
-                        <label for="cpf">CPF</label>
-                        <input type="text" id="cpf">
-                        <label for="date-nasc"> Data de nascimento</label>
-                        <input type="text" id="date-nasc">
-                    </div>
-                    <div class="contact-user">
-                        <label for="email">E-mail</label>
-                        <input type="text" id="email">
-                        <label for="numero">Número</label>
-                        <input type="text" id="numero">
-                    </div>
-                    <div class="endereco-user">
-                        <label for="pais">País</label>
-                        <input type="text" id="pais">
-                        <label for="estado">Estado</label>
-                        <input type="text" id="estado">
-                        <label for="cidade">Cidade</label>
-                        <input type="text" id="cidade">
-                        <label for="bairro">Bairro</label>
-                        <input type="text" id="bairro">
-                        <label for="cep">CEP</label>
-                        <input type="text" id="cep">
-                    </div>
-                    <button id="enviar-form" type="submit">Enviar</button>
-                </div>
-            </form>
+                </form>
+            </div>
+            <!-- <div class="logando">
+                <label for="login-log">Login</label>
+                <input type="text" id="login-log">
+                <label for="senha-log">Senha</label>
+                <input type="text" id="senha-log">
+            </div> -->
         </div>
-        <!-- <div class="logando">
-            <label for="login-log">Login</label>
-            <input type="text" id="login-log">
-            <label for="senha-log">Senha</label>
-            <input type="text" id="senha-log">
-        </div> -->
+        <div>
+            <input type="text">
+            <input type="text">
+            <button>Entrar</button>
+        </div>
     </div>
-    <div>
-        <input type="text">
-        <input type="text">
-        <button>Entrar</button>
-    </div>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </body>
 </html>
