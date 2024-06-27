@@ -1,7 +1,7 @@
 <template>
   <div class="container-sidebar h-screen w-[300px] bg-gray-800">
     <div class="flex items-center bg-gray-700 h-[50px] w-full">
-      <div class="align-center text-base text-white font-semibold text-center w-full">
+      <div class="align-center text-xl text-white font-semibold text-center w-full">
         Event Hub
       </div>
     </div>
