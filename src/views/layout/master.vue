@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full flex">
-    <sidebar class="fixed" />
+    <sidebar />
     <div class="w-full flex flex-col">
       <headerTop />
       <div class="flex-1 overflow-y-auto px-4 py-6">

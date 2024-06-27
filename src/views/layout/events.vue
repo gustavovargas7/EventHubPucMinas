@@ -2,34 +2,34 @@
     <div>
         <p class="text-lg">Mais vistos:</p>
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
-    <div class="container-aloc-cards w-full flex justify-center gap-2 min-h-40">
+    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
         <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
     </div>
 </template>

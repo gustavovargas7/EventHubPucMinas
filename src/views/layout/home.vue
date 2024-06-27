@@ -1,4 +1,7 @@
 <template>
-<div>oi</div>
+<div>home</div>
 </template>
+<script>
+
+</script>
 
