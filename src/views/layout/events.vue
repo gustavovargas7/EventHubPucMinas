@@ -1,36 +1,38 @@
 <template>
-    <div>
-        <p class="text-lg">Mais vistos:</p>
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
-    </div>
-    <div class="container-aloc-cards w-full flex flex-wrap justify-center gap-2 min-h-40">
-        <cardEvent v-for="event in arrayEvent" :key="event" :DataEvent="event" />
+    <div class="container-wrapper flex flex-col items-center">
+        <div>
+            <p class="text-lg">Mais vistos:</p>
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
+        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+        </div>
     </div>
 </template>
 
@@ -58,14 +60,14 @@ export default {
                     date: 'QUA, 03 JUL',
                     hour: '21:30',
                     nameEvent: 'ATLÉTICO MG x FLAMENGO | Campeonato Brasileiro',
-                    localEvent: 'ArenaMRV - MG',                  
+                    localEvent: 'ArenaMRV - MG',
                 },
                 {
                     urlImg: imgPalxCor,
                     date: 'DOM, 07 JUL',
                     hour: '16:00',
                     nameEvent: 'PALMEIRAS MG x CORINTHIANS | Campeonato Brasileiro',
-                    localEvent: 'AlianzArena - SP',                  
+                    localEvent: 'AlianzArena - SP',
                 },
                 {
                     urlImg: imgCruCsa,
