@@ -1,7 +1,6 @@
 
 export function closeSidebar() {
     const container = document.querySelector('.container-sidebar')
-    const User = document.querySelectorAll('.user')
     const profile = document.querySelector('.profile')
     const svgUser = document.querySelector('.svg')
     const options = document.querySelectorAll('.options-sidebar')
@@ -20,7 +19,8 @@ export function closeSidebar() {
         svgUser.classList.toggle('w-20')
         svgUser.classList.toggle('h-20')
 
-        container.classList.toggle('w-[70px]')
+        container.classList.toggle('w-[300px]')
+        container.classList.toggle('w-[90px]')
         options.forEach(option => {
             option.classList.toggle('d-none')
         });
