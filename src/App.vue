@@ -1,8 +1,8 @@
 <template>
-    <div id="app">
-      <router-view/>
-    </div>
-  </template>
+
+    <router-view />
+
+</template>
   
   <script lang="ts">
   import { defineComponent } from 'vue';
@@ -12,7 +12,7 @@
   });
   </script>
 
-  <style scoped>
+  <!-- <style scoped>
   html,
   body,
   #app {
@@ -23,4 +23,4 @@
     overflow-x: hidden;
     overflow-y: hidden;
   }
-</style>
+</style> -->
