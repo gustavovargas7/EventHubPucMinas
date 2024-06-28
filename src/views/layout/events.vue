@@ -6,45 +6,18 @@
         <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
             <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
         </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
     </div>
 </template>
 
 <script>
-import cardEvent from "../../components/cardEvent.vue";
-import imgGaloxFla from '../img/galoxflamengo.webp';
-import imgPalxCor from '../img/palmeirasxcorinthias.png';
-import imgCruCsa from '../img/csaxcruzeiro.jpg';
-import imgThiaguinho from '../img/thiaguinho.webp';
-import imgAnaCastela from '../img/anacastela.png';
-import imgTrintaPraUm from '../img/30praum.jpg';
-import imgRestart from '../img/restart.webp';
+    import cardEvent from "../../components/cardEvent.vue";
+    import imgGaloxFla from '../img/galoxflamengo.webp';
+    import imgPalxCor from '../img/palmeirasxcorinthias.png';
+    import imgCruCsa from '../img/csaxcruzeiro.jpg';
+    import imgThiaguinho from '../img/thiaguinho.webp';
+    import imgAnaCastela from '../img/anacastela.png';
+    import imgTrintaPraUm from '../img/30praum.jpg';
+    import imgRestart from '../img/restart.webp';
 
 export default {
     name: 'Events',
