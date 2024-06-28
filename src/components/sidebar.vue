@@ -1,5 +1,6 @@
 <template>
-  <div class="container-sidebar h-screen w-[200px] bg-gray-800">
+
+  <!-- <div class="container-sidebar h-screen w-[200px] bg-gray-800">
     <div class="flex items-center bg-gray-700 h-[50px] w-full">
       <div class="align-center text-base text-white font-semibold text-center w-full">
         Event Hub
@@ -26,7 +27,8 @@
         </li>
       </ol>
     </div>
-  </div>
+  </div> -->
+
 </template>
 
 <script>
