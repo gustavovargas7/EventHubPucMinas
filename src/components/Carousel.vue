@@ -9,11 +9,11 @@
             </div>
         </div>
         <div @click="prevSlide"
-            class="carousel-prev absolute rounded-full top-1/2 transform -translate-y-1/2 -left-6 bg-gray-800 text-white w-[36px] h-[36px] font-bold shadow-md p-2 flex items-center justify-center">
+            class="cursor-pointer carousel-prev absolute rounded-full top-1/2 transform -translate-y-1/2 -left-6 bg-gray-800 text-white w-[36px] h-[36px] font-bold shadow-md p-2 flex items-center justify-center">
             <span class="pi pi-angle-double-left"></span>
         </div>
         <div @click="nextSlide"
-            class="carousel-next absolute rounded-full top-1/2 transform -translate-y-1/2 -right-6 bg-gray-800 text-white w-[36px] h-[36px] font-bold shadow-md p-2 flex items-center justify-center">
+            class="cursor-pointer carousel-next absolute rounded-full top-1/2 transform -translate-y-1/2 -right-6 bg-gray-800 text-white w-[36px] h-[36px] font-bold shadow-md p-2 flex items-center justify-center">
             <span class="pi pi-angle-double-right"></span>
         </div>
     </div>
