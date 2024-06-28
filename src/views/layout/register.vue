@@ -8,7 +8,7 @@
             </div>
             <Input v-for="input in inputs" :key="input.id" :dataInput="input" />
             <div class="w-3/5 sm:w-4/5 md:w-3/5">
-                <button type="submit"
+                <button @click="localStorage" type="submit"
                     class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button>
             </div>
         </div>
@@ -17,6 +17,7 @@
 
 <script>
 import Input from '../../components/input.vue'
+import { localStorage } from '@/scripts/login';
 
 export default {
     name: 'Register',
@@ -59,8 +60,10 @@ export default {
                 },
             ]
         }
+    },
+    methods: {
+        localStorage
     }
-
 }
 
 </script>
