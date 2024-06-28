@@ -3,9 +3,9 @@
         <div>
             <p class="text-lg">Mais vistos:</p>
         </div>
-        <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
+        <!-- <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
             <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
-        </div>
+        </div> -->
     </div>
 </template>
 
