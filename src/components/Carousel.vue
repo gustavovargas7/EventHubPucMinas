@@ -1,5 +1,5 @@
 <template>
-    <div class="carousel p-4 relative shadow-md rounded-xl">
+    <div class="sm:max-w-[90%] carousel p-4 relative shadow-md rounded-xl md:max-w-[50%]">
         <div class="overflow-hidden relative">
             <div class="carousel-slide flex transition-transform duration-300 ease-out"
                 :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
@@ -38,10 +38,6 @@ export default {
 </script>
 
 <style scoped>
-.carousel {
-    max-width: 50%;
-}
-
 .carousel-slide {
     width: 100%;
 }

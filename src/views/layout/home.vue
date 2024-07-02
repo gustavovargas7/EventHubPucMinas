@@ -1,24 +1,25 @@
 <template>
     <div class="flex justify-center flex-col items-center gap-4 p-2">
+        <p class="text-center text-xl font-semibold">Destaques: </p>
         <div class="flex justify-center flex-col items-center">
             <Carousel :currentIndex="currentIndex" :slides="slides" @prev="prevSlide" @next="nextSlide" />
         </div>
         <div class="w-full flex flex-row p-2 font-semibold text-xl">
             <p class="">Eventos mais preocurados: </p>
         </div>
-        <div class="grid gap-2 grid-cols-5 w-full p-2">
+        <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
             <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" />
         </div>
         <div class="w-full flex flex-row p-2 font-semibold text-xl">
             <p class="">Ingressos de futebol: </p>
         </div>
-        <div class="grid gap-2 grid-cols-5 w-full p-2">
+        <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
             <cardEvent v-for="event in filterFutebol" :key="event.id" :DataEvent="event" />
         </div>
         <div class="w-full flex flex-row p-2 font-semibold text-xl">
             <p class="">Mais shows: </p>
         </div>
-        <div class="grid gap-2 grid-cols-5 w-full p-2">
+        <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
             <cardEvent v-for="event in filterShow" :key="event.id" :DataEvent="event" />
         </div>
     </div>
@@ -54,7 +55,7 @@ export default {
                 { image: imgCruCsa },
                 { image: imgThiaguinho },
                 { image: imgTrintaPraUm }
-            ], 
+            ],
             arrayEvent: [
                 {
                     urlImg: imgTrintaPraUm,
@@ -142,7 +143,7 @@ export default {
     computed: {
         filterFutebol() {
             return this.arrayEvent.filter(event => event.type === 'Futebol');
-        }, 
+        },
         filterShow() {
             return this.arrayEvent.filter(event => event.type === 'Show');
         },

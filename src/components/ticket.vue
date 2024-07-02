@@ -12,10 +12,10 @@
                 <p class="text-gray-300 text-sm">Qtde: {{ dataTicket.qtde }}</p>
                 <br>
                 <div class="">
-                    <p class="text-red-500 mb-2 border border-red-500 hover:bg-red-400 hover:text-white font-bold py-1 px-1 rounded">
+                    <p class="text-green-500 mb-2 border border-green-500 hover:bg-green-400 hover:text-white font-bold py-1 px-1 rounded">
                         {{ dataTicket.situation }}
                     </p>
-                    <p>Visualizar Ingresso</p>
+                    <p class="hover:text-blue-500 cursor-ponter">Visualizar Ingresso</p>
                 </div>
             </div>
         </div>

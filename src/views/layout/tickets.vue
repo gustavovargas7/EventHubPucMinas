@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="sm:flex sm:flex-col sm:justify-center sm:items-center gap-4 md:grid md:grid-cols-2 md:justify-items-center">
         <Ticket v-for="ticket in tickets" :key="ticket.event" :dataTicket="ticket" />
     </div>
 </template>
@@ -8,6 +8,8 @@
 
 import Ticket from "../../components/ticket.vue";
 import imgGaloxFla from '../img/galoxflamengo.webp';
+import imgThiaguinho from '../img/thiaguinho.webp';
+import imgPalXcor from '../img/palmeirasxcorinthias.png';
 
 export default {
     name: 'Tickets',
@@ -27,7 +29,7 @@ export default {
                     situation: 'Ativo'
                 },
                 {
-                    imgUrl: imgGaloxFla,
+                    imgUrl: imgThiaguinho,
                     event: 'FLA',
                     local: 'Local do Evento',
                     date: 'Data do Evento',
@@ -36,11 +38,11 @@ export default {
                     situation: 'Ativo'
                 },
                 {
-                    imgUrl: imgGaloxFla,
-                    event: 'FLA',
-                    local: 'Local do Evento',
-                    date: 'Data do Evento',
-                    hour: 'Hora do Evento',
+                    imgUrl: imgPalXcor,
+                    event: 'Palmeiras x Corinthians | Campeonato Brasileiro',
+                    local: 'Alianz Parque',
+                    date: '01/07/2024',
+                    hour: '20:00',
                     qtde: 2,
                     situation: 'Ativo'
                 },

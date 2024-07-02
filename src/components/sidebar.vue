@@ -1,11 +1,12 @@
 <template>
-  <div class="container-sidebar h-screen w-[300px] bg-gray-800">
+  <div></div>
+  <!-- <div class="container-sidebar h-screen w-[300px] bg-gray-800">
     <div class="flex items-center bg-gray-700 h-[50px] w-full">
       <div class="align-center text-xl text-white font-semibold text-center w-full">
         Event Hub
       </div>
     </div>
-    <div class="items">
+    <div class="items flex flex-col gap-4">
       <div class="user h-[100px] flex justify-center items-center p-2">
         <div
           class="profile relative w-20 h-20 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600 cursor-pointer hover:bg-gray-50">
@@ -16,6 +17,7 @@
           </svg>
         </div>
       </div>
+      <hr>
       <ol id="sideBarItems" class="flex gap-2 flex-col">
         <li v-for="item in sideItems" :key="item.id"
           class="p-2 flex w-full gap-3 text-white font-semibold cursor-pointer hover:bg-gray-50 hover:text-black">
@@ -26,11 +28,11 @@
         </li>
       </ol>
     </div>
-  </div>
+  </div> -->
 
 </template>
 
-<script>
+<!-- <script>
 export default {
   data() {
     return {
@@ -40,15 +42,15 @@ export default {
   mounted() {
     this.sideItems = [
       { id: 1, name: 'Home', link: '/', class: 'pi pi-home' },
-      { id: 3, name: 'Eventos', link: '/events', class: 'pi pi-calendar' },
+      // { id: 3, name: 'Eventos', link: '/events', class: 'pi pi-calendar' },
       { id: 2, name: 'Meus ingressos', link: '/tickets', class: 'pi pi-ticket' },
       { id: 4, name: 'Sobre', link: '/about', class: 'pi pi-info-circle' },
-      { id: 5, name: 'Contato', link: '/contacts', class: 'pi pi-phone' }
+      // { id: 5, name: 'Contato', link: '/contacts', class: 'pi pi-phone' }
     ];
   },
 };
-</script>
-
+</script> -->
+<!-- 
 <style>
 i {
   display: flex !important;
@@ -59,4 +61,4 @@ i {
 .icons-sidebar {
   font-size: 1.4rem !important;
 }
-</style>
+</style> -->

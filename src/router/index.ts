@@ -2,12 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router';
 //User
 import Login from "@/views/layout/login.vue";
 //Master System
+import AboutEvent from "@/views/layout/aboutEvent.vue";
+import About from "@/views/layout/about.vue";
+import Contacts from "@/views/layout/contacts.vue";
 import Master from "@/views/layout/master.vue";
 import Home from "@/views/layout/home.vue";
 import Events from "@/views/layout/events.vue";
 import Tickets from "@/views/layout/tickets.vue";
-import About from "@/views/layout/about.vue";
-import Contacts from "@/views/layout/contacts.vue";
 import Register from "@/views/layout/register.vue";
 
 const router = createRouter({
@@ -55,6 +56,11 @@ const router = createRouter({
       path: '/register',
       name: 'Register',
       component: Register,
+    },
+    {
+      path: '/aboutEvent',
+      name: 'About Event',
+      component: AboutEvent,
     },
   ]
 })
