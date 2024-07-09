@@ -4,7 +4,7 @@ import App from './App.vue'
 // Rotas
 import router from './router'
 // CSS
-import '../src/assets/css/app.css'
+import '../src/assets/styles/App.css'
 
 // Prime Vue
 import PrimeVue from 'primevue/config'

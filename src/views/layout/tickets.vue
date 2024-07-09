@@ -6,10 +6,10 @@
 
 <script>
 
-import Ticket from "../../components/ticket.vue";
-import imgGaloxFla from '../img/galoxflamengo.webp';
-import imgThiaguinho from '../img/thiaguinho.webp';
-import imgPalXcor from '../img/palmeirasxcorinthias.png';
+import Ticket from "../../components/Ticket.vue";
+import imgGaloxFla from '../../assets/images/galoxflamengo.webp';
+import imgThiaguinho from '../../assets/images/thiaguinho.webp';
+import imgPalXcor from '../../assets/images/palmeirasxcorinthias.png';
 
 export default {
     name: 'Tickets',

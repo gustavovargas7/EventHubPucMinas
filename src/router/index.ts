@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
 //User
-import Login from "@/views/layout/login.vue";
+import Login from "@/views/layout/Login.vue";
 //Master System
-import AboutEvent from "@/views/layout/aboutEvent.vue";
-import About from "@/views/layout/about.vue";
-import Contacts from "@/views/layout/contacts.vue";
-import Master from "@/views/layout/master.vue";
-import Home from "@/views/layout/home.vue";
-import Events from "@/views/layout/events.vue";
-import Tickets from "@/views/layout/tickets.vue";
-import Register from "@/views/layout/register.vue";
+import AboutEvent from "@/views/layout/AboutEvent.vue";
+import About from "@/views/layout/About.vue";
+import Contacts from "@/views/layout/Contacts.vue";
+import Master from "@/views/layout/Master.vue";
+import Home from "@/views/layout/Home.vue";
+import Events from "@/views/layout/Events.vue";
+import Tickets from "@/views/layout/Tickets.vue";
+import Register from "@/views/layout/Register.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

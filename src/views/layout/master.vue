@@ -1,8 +1,8 @@
 <template>
   <div class="w-full h-full flex">
-    <sidebar />
+    <Sidebar />
     <div class="w-full flex flex-col">
-      <headerTop />
+      <HeaderTop />
       <div class="flex-1 overflow-y-auto px-4 py-6">
         <router-view></router-view>
       </div>
@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import headerTop from '../../components/header.vue'
-import sidebar from '../../components/sidebar.vue'
+import HeaderTop from '../../components/Header.vue'
+import Sidebar from '../../components/Sidebar.vue'
 
 export default {
-    components: { headerTop, sidebar }
+    components: { HeaderTop, Sidebar }
 }
 </script>
 

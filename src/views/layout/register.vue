@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Input from '../../components/input.vue'
+import Input from '../../components/Input.vue'
 import { localStorage } from '@/scripts/login';
 
 export default {

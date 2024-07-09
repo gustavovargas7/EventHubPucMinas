@@ -8,19 +8,19 @@
             <p class="">Eventos mais preocurados: </p>
         </div>
         <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" />
+            <CardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" />
         </div>
         <div class="w-full flex flex-row p-2 font-semibold text-xl">
             <p class="">Ingressos de futebol: </p>
         </div>
         <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
-            <cardEvent v-for="event in filterFutebol" :key="event.id" :DataEvent="event" />
+            <CardEvent v-for="event in filterFutebol" :key="event.id" :DataEvent="event" />
         </div>
         <div class="w-full flex flex-row p-2 font-semibold text-xl">
             <p class="">Mais shows: </p>
         </div>
         <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
-            <cardEvent v-for="event in filterShow" :key="event.id" :DataEvent="event" />
+            <CardEvent v-for="event in filterShow" :key="event.id" :DataEvent="event" />
         </div>
     </div>
 </template>
@@ -28,25 +28,25 @@
 <script>
 //Components
 import Carousel from '../../components/Carousel.vue';
-import cardEvent from '@/components/cardEvent.vue';
+import CardEvent from '@/components/CardEvent.vue';
 //Imagens
-import imgCruCsa from '../img/csaxcruzeiro.jpg';
-import imgThiaguinho from '../img/thiaguinho.webp';
-import imgTrintaPraUm from '../img/30praum.jpg';
-import imgPalxCor from '../img/palmeirasxcorinthias.png';
-import imgRestart from '../img/restart.webp';
-import imgSemanaRock from '../img/semanarock.jpg';
-import imgAnaCastela from '../img/anacastela.png';
-import imgCsaCru from '../img/csaxcruzeiro.jpg';
-import imgFabioJr from '../img/fabioJr.png';
-import imgGaloXfla from '../img/galoxflamengo.webp';
-import imgCeaFort from '../img/for-cea.jpg';
+import imgCruCsa from '../../assets/images/csaxcruzeiro.jpg';
+import imgThiaguinho from '../../assets/images/thiaguinho.webp';
+import imgTrintaPraUm from '../../assets/images/30praum.jpg';
+import imgPalxCor from '../../assets/images/palmeirasxcorinthias.png';
+import imgRestart from '../../assets/images/restart.webp';
+import imgSemanaRock from '../../assets/images/semanarock.jpg';
+import imgAnaCastela from '../../assets/images/anacastela.png';
+import imgCsaCru from '../../assets/images/csaxcruzeiro.jpg';
+import imgFabioJr from '../../assets/images/fabioJr.png';
+import imgGaloXfla from '../../assets/images/galoxflamengo.webp';
+import imgCeaFort from '../../assets/images/for-cea.jpg';
 
 
 export default {
     components: {
         Carousel,
-        cardEvent,
+        CardEvent,
     },
     data() {
         return {

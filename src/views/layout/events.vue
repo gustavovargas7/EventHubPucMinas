@@ -4,25 +4,27 @@
             <p class="text-lg">Mais vistos:</p>
         </div>
         <!-- <div class="container-aloc-cards w-full flex justify-center overflow-x-auto gap-2 min-h-40">
-            <cardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
+            <CardEvent v-for="event in arrayEvent" :key="event.id" :DataEvent="event" class="min-w-[200px]" />
         </div> -->
     </div>
 </template>
 
 <script>
-    import cardEvent from "../../components/cardEvent.vue";
-    import imgGaloxFla from '../img/galoxflamengo.webp';
-    import imgPalxCor from '../img/palmeirasxcorinthias.png';
-    import imgCruCsa from '../img/csaxcruzeiro.jpg';
-    import imgThiaguinho from '../img/thiaguinho.webp';
-    import imgAnaCastela from '../img/anacastela.png';
-    import imgTrintaPraUm from '../img/30praum.jpg';
-    import imgRestart from '../img/restart.webp';
+import CardEvent from "../../components/CardEvent.vue";
+
+
+import imgGaloxFla from '../../assets/images/galoxflamengo.webp';
+import imgPalxCor from '../../assets/images/palmeirasxcorinthias.png';
+import imgCruCsa from '../../assets/images/csaxcruzeiro.jpg';
+import imgThiaguinho from '../../assets/images/thiaguinho.webp';
+import imgAnaCastela from '../../assets/images/anacastela.png';
+import imgTrintaPraUm from '../../assets/images/30praum.jpg';
+import imgRestart from '../../assets/images/restart.webp';
 
 export default {
     name: 'Events',
     components: {
-        cardEvent,
+        CardEvent,
     },
 
     data() {
