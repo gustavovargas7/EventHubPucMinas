@@ -1,17 +1,19 @@
 <template>
     <div class="w-full bg-gray-100">
-        <div class="flex justify-between items-center w-[100%] h-[50px] pl-0 pr-3 p-2">
+        <div class="flex justify-between items-center w-full h-[50px] pl-0 pr-3 p-2">
             <div class="p-2 sm:w-[60%] md:w-[40%] cursor-pointer" @click="closeSidebar">
                 <!-- alocIcons -->
-                <ol id="sideBarItems" class="flex gap-2">
-                    <li v-for="item in sideItems" :key="item.id" :href="item.link"
-                        class="hover:bg-gray-50 flex w-full sm:gap-4 md:gap-8 gap-3 text-white font-semibold flex justify-center items-center">
-                        <a class="items-center w-full hover:rounded-xl p-2 justify-center text-gray-500 flex gap-3cursor-pointer hover:bg-gray-50 hover:text-black"
-                            :href="item.link" :title="item.name">
-                            <i class="items-center flex icons-sidebar" :class="item.class"></i>
-                        </a>
-                    </li>
-                </ol>
+                <nav>
+                    <ol id="sideBarItems" class="flex gap-2">
+                        <li v-for="item in sideItems" :key="item.id" :href="item.link"
+                            class="hover:bg-gray-50 flex w-full sm:gap-4 md:gap-8 gap-3 text-white font-semibold flex justify-center items-center">
+                            <a class="items-center w-full hover:rounded-xl p-2 justify-center text-gray-500 flex gap-3cursor-pointer hover:bg-gray-50 hover:text-black"
+                                :href="item.link" :title="item.name">
+                                <i class="items-center flex icons-sidebar" :class="item.class"></i>
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
                 <!-- <i class="pi pi-bars bg-red"></i> -->
             </div>
             <!-- <div class="flex">
@@ -28,7 +30,7 @@
                             clip-rule="evenodd"></path>
                     </svg>
                 </div>
-                <a class="text-sm text-black max-w-lg">Gustavo Vargas</a>
+                <a class="text-sm text-black max-w-lg" href="/register">Gustavo Vargas</a>
             </div>
         </div>
     </div>

@@ -12,7 +12,8 @@
                 <p class="text-gray-300 text-sm">Qtde: {{ dataTicket.qtde }}</p>
                 <br>
                 <div class="">
-                    <p class="text-green-500 mb-2 border border-green-500 hover:bg-green-400 hover:text-white font-bold py-1 px-1 rounded">
+                    <p
+                        class="text-green-500 mb-2 border border-green-500 hover:bg-green-400 hover:text-white font-bold py-1 px-1 rounded">
                         {{ dataTicket.situation }}
                     </p>
                     <p class="hover:text-blue-500 cursor-ponter">Visualizar Ingresso</p>
@@ -26,10 +27,13 @@
 export default {
     name: 'Ticket',
     props: {
-      dataTicket: {
-         type: Object,
-         required: true,
-      }
+        dataTicket: {
+            type: Object,
+            required: true,
+            validator(value) {
+                return ['event', 'date', 'local', 'qtde', 'hour', 'situation'].every(prop => prop in value)
+            },
+        }
     }
 }
 </script>

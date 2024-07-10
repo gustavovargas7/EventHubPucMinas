@@ -7,7 +7,6 @@
     "nightwatch.conf.*",
     "playwright.config.*"
   ],
-  
   "compilerOptions": {
     "composite": true,
     "noEmit": true,

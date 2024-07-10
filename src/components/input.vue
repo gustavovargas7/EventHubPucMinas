@@ -16,7 +16,10 @@ export default {
     props: {
         dataInput: {
             type: Object,
-            required: true
+            required: true,
+            validator(value) {
+                return ['icon', 'type', 'id', 'placeholder'].every(prop => prop in value)
+            }
         }
     }
 }

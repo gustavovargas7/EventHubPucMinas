@@ -17,22 +17,21 @@
           </svg>
         </div>
       </div>
-      <hr>
+      <hr class="border-gray-600">
       <ol id="sideBarItems" class="flex gap-2 flex-col">
         <li v-for="item in sideItems" :key="item.id"
           class="p-2 flex w-full gap-3 text-white font-semibold cursor-pointer hover:bg-gray-50 hover:text-black">
           <a class="items-center flex gap-3 w-full" :href="item.link">
             <i class="items-center flex icons-sidebar" :class="item.class"></i>
-            <a class="options-sidebar text-base">{{ item.name }}</a>
+            <span class="options-sidebar text-base">{{ item.name }}</span>
           </a>
         </li>
       </ol>
     </div>
   </div> -->
-
 </template>
 
-<!-- <script>
+<script>
 export default {
   data() {
     return {
@@ -42,15 +41,13 @@ export default {
   mounted() {
     this.sideItems = [
       { id: 1, name: 'Home', link: '/', class: 'pi pi-home' },
-      // { id: 3, name: 'Eventos', link: '/events', class: 'pi pi-calendar' },
       { id: 2, name: 'Meus ingressos', link: '/tickets', class: 'pi pi-ticket' },
       { id: 4, name: 'Sobre', link: '/about', class: 'pi pi-info-circle' },
-      // { id: 5, name: 'Contato', link: '/contacts', class: 'pi pi-phone' }
     ];
   },
 };
-</script> -->
-<!-- 
+</script>
+
 <style>
 i {
   display: flex !important;
@@ -61,4 +58,4 @@ i {
 .icons-sidebar {
   font-size: 1.4rem !important;
 }
-</style> -->
+</style>

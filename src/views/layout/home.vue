@@ -14,13 +14,13 @@
             <p class="">Ingressos de futebol: </p>
         </div>
         <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
-            <CardEvent v-for="event in filterFutebol" :key="event.id" :DataEvent="event" />
+            <CardEvent v-for="event in futebolEvents" :key="event.id" :DataEvent="event" />
         </div>
         <div class="w-full flex flex-row p-2 font-semibold text-xl">
             <p class="">Mais shows: </p>
         </div>
         <div class="grid gap-2 md:grid-cols-5 w-full p-2 sm:justify-center sm:grid-cols-1 sm:justify-items-center">
-            <CardEvent v-for="event in filterShow" :key="event.id" :DataEvent="event" />
+            <CardEvent v-for="event in showEvents" :key="event.id" :DataEvent="event" />
         </div>
     </div>
 </template>
@@ -30,16 +30,16 @@
 import Carousel from '../../components/Carousel.vue';
 import CardEvent from '@/components/CardEvent.vue';
 //Imagens
-import imgCruCsa from '../../assets/images/csaxcruzeiro.jpg';
+import imgCruCsa from '../../assets/images/csa-cruzeiro.jpg';
 import imgThiaguinho from '../../assets/images/thiaguinho.webp';
-import imgTrintaPraUm from '../../assets/images/30praum.jpg';
-import imgPalxCor from '../../assets/images/palmeirasxcorinthias.png';
+import imgTrintaPraUm from '../../assets/images/trinta-pra-um.jpg';
+import imgPalxCor from '../../assets/images/palmeiras-corinthias.png';
 import imgRestart from '../../assets/images/restart.webp';
-import imgSemanaRock from '../../assets/images/semanarock.jpg';
-import imgAnaCastela from '../../assets/images/anacastela.png';
-import imgCsaCru from '../../assets/images/csaxcruzeiro.jpg';
-import imgFabioJr from '../../assets/images/fabioJr.png';
-import imgGaloXfla from '../../assets/images/galoxflamengo.webp';
+import imgSemanaRock from '../../assets/images/semana-rock.jpg';
+import imgAnaCastela from '../../assets/images/ana-castela.png';
+import imgCsaCru from '../../assets/images/csa-cruzeiro.jpg';
+import imgFabioJr from '../../assets/images/fabio-jr.png';
+import imgGaloXfla from '../../assets/images/galo-flamengo.webp';
 import imgCeaFort from '../../assets/images/for-cea.jpg';
 
 
@@ -141,10 +141,10 @@ export default {
         };
     },
     computed: {
-        filterFutebol() {
+        futebolEvents() {
             return this.arrayEvent.filter(event => event.type === 'Futebol');
         },
-        filterShow() {
+        showEvents() {
             return this.arrayEvent.filter(event => event.type === 'Show');
         },
         filterMostWoried() {

@@ -7,9 +7,9 @@
 <script>
 
 import Ticket from "../../components/Ticket.vue";
-import imgGaloxFla from '../../assets/images/galoxflamengo.webp';
+import imgGaloxFla from '../../assets/images/galo-flamengo.webp';
 import imgThiaguinho from '../../assets/images/thiaguinho.webp';
-import imgPalXcor from '../../assets/images/palmeirasxcorinthias.png';
+import imgPalXcor from '../../assets/images/palmeiras-corinthias.png';
 
 export default {
     name: 'Tickets',
