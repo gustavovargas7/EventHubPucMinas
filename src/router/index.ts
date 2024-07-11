@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-//User
+// User
 import Login from "@/views/layout/Login.vue";
 import Register from "@/views/layout/Register.vue";
 
-//Master System
+// Master System
 import About from "@/views/layout/About.vue";
 import Home from "@/views/layout/Home.vue";
 import Master from "@/views/layout/Master.vue";
@@ -14,12 +14,22 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      name: 'Register',
+      component: Register,
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login,
+    },
+    {
       path: '/master',
       name: 'Master',
       component: Master,
       children: [
         {
-          path: '/',
+          path: '',
           name: 'Home',
           component: Home,
         },
@@ -35,18 +45,7 @@ const router = createRouter({
         },
       ],
     },
-    {
-      path: '/login',
-      name: 'Login',
-      component: Login,
-      children: []
-    },
-    {
-      path: '/register',
-      name: 'Register',
-      component: Register,
-    },
-  ]
-})
+  ],
+});
 
 export default router;

@@ -1,15 +1,16 @@
 <template>
-    <div class="sm:flex sm:flex-col sm:justify-center sm:items-center gap-4 md:grid md:grid-cols-2 md:justify-items-center">
-        <Ticket v-for="ticket in tickets" :key="ticket.event" :dataTicket="ticket" />
+    <div>
+        <button @click="clearLocalStorage" class="bg-red-500 text-white p-2 rounded mb-4">Limpar Ingressos
+            Salvos</button>
+        <div
+            class="sm:flex sm:flex-col sm:justify-center sm:items-center gap-4 md:grid md:grid-cols-2 md:justify-items-center">
+            <Ticket v-for="ticket in tickets" :key="ticket.event" :dataTicket="ticket" />
+        </div>
     </div>
 </template>
 
 <script>
-
 import Ticket from "../../components/Ticket.vue";
-import imgGaloxFla from '../../assets/images/galo-flamengo.webp';
-import imgThiaguinho from '../../assets/images/thiaguinho.webp';
-import imgPalXcor from '../../assets/images/palmeiras-corinthias.png';
 
 export default {
     name: 'Tickets',
@@ -18,36 +19,29 @@ export default {
     },
     data() {
         return {
-            tickets: [
-                {
-                    imgUrl: imgGaloxFla,
-                    event: 'PAL',
-                    local: 'Local do Evento',
-                    date: 'Data do Evento',
-                    hour: 'Hora do Evento',
-                    qtde: 2,
-                    situation: 'Ativo'
-                },
-                {
-                    imgUrl: imgThiaguinho,
-                    event: 'FLA',
-                    local: 'Local do Evento',
-                    date: 'Data do Evento',
-                    hour: 'Hora do Evento',
-                    qtde: 2,
-                    situation: 'Ativo'
-                },
-                {
-                    imgUrl: imgPalXcor,
-                    event: 'Palmeiras x Corinthians | Campeonato Brasileiro',
-                    local: 'Alianz Parque',
-                    date: '01/07/2024',
-                    hour: '20:00',
-                    qtde: 2,
-                    situation: 'Ativo'
-                },
-            ]
+            tickets: []
         };
+    },
+    mounted() {
+        this.loadTickets();
+    },
+    methods: {
+        loadTickets() {
+            const storedTickets = JSON.parse(localStorage.getItem('clickedEvents')) || [];
+            this.tickets = storedTickets.map(event => ({
+                imgUrl: event.urlImg,
+                event: event.nameEvent,
+                local: event.localEvent,
+                date: event.date,
+                hour: event.hour,
+                qtde: 1,
+                situation: 'Ativo' 
+            }));
+        },
+        clearLocalStorage() {
+            localStorage.removeItem('clickedEvents');
+            this.tickets = [];
+        }
     }
 }
 </script>

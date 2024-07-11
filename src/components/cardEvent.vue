@@ -9,7 +9,13 @@
             </div>
             <div class="local flex flex-col gap-1">
                 <p class="text-sm font-sans font-medium">{{ DataEvent.nameEvent }}</p>
-                <p class="text-xs font text-current font-semibold text-slate-500">{{ DataEvent.localEvent }}</p>
+                <div class="flex gap-2 justify-between">
+                    <p class="text-xs font text-current font-semibold text-slate-500">{{ DataEvent.localEvent }}</p>
+                    <div class="cart bg-green-500 w-[25px] flex items-center justify-center p-1 rounded-lg hover:bg-green-400"
+                        @click="saveEvent">
+                        <i class="pi pi-cart-minus text-white"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -23,10 +29,17 @@ export default {
             type: Object,
             required: true
         }
-    }, 
+    },
     computed: {
         eventDate() {
-            return `${this.DataEvent.date} - ${this.DataEvent.hour}`
+            return `${this.DataEvent.date} - ${this.DataEvent.hour}`;
+        }
+    },
+    methods: {
+        saveEvent() {
+            const storedEvents = JSON.parse(localStorage.getItem('clickedEvents')) || [];
+            storedEvents.push(this.DataEvent);
+            localStorage.setItem('clickedEvents', JSON.stringify(storedEvents));
         }
     }
 }

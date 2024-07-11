@@ -8,35 +8,9 @@ interface FormData {
     password: string;
 }
 
-
-export function saveFormData(event: Event): void {
-    event.preventDefault();
-
-    const nameInput = document.querySelector('#name') as HTMLInputElement | null;
-    const emailInput = document.querySelector('#email') as HTMLInputElement | null;
-    const cpfInput = document.querySelector('#cpf') as HTMLInputElement | null;
-    const numberInput = document.querySelector('#cellphone') as HTMLInputElement | null;
-    const dateInput = document.querySelector('#date') as HTMLInputElement | null;
-    const loginInput = document.querySelector('#login') as HTMLInputElement | null;
-    const passwordInput = document.querySelector('#password') as HTMLInputElement | null;
-
-    if (nameInput && emailInput && cpfInput && numberInput && dateInput && loginInput && passwordInput) {
-        const formData: FormData = {
-            name: nameInput.value,
-            email: emailInput.value,
-            cpf: cpfInput.value,
-            number: numberInput.value,
-            date: dateInput.value,
-            login: loginInput.value,
-            password: passwordInput.value,
-        };
-
-        localStorage.setItem('formData', JSON.stringify(formData));
-
-        console.log('Form data saved to localStorage.');
-    } else {
-        console.error('One or more input fields were not found.');
-    }
+export function saveFormData(formData: FormData): void {
+    localStorage.setItem('formData', JSON.stringify(formData));
+    console.log('Form data saved to localStorage.');
 }
 
 export async function login(formData: { login: string | number, password: string | number }): Promise<boolean> {
