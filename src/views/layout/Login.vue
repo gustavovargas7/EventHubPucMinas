@@ -59,6 +59,7 @@ export default {
         async handleLogin() {
             try {
                 const loggedIn = await login(this.formData);
+                console.log(loggedIn);
                 if (loggedIn) {
                     console.log('Login bem-sucedido! Redirecionando...');
                 } else {
